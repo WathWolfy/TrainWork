@@ -1,0 +1,124 @@
+* {
+  margin-top: 0;
+  margin-left: 0;
+  box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+}
+
+.train {
+  width: 100%;
+}
+
+.seats {
+  position: absolute;
+  top: 5px;
+  left: 263px;
+}
+
+.top-seats,
+.down-seats {
+  display: flex;
+}
+
+.seat {
+  background: #009aa4;
+  border: 1px solid #000000;
+  border-radius: 15px;
+  width: 30px;
+  height: 60px;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 60px;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+}
+
+.selected-seat {
+  background: #005458;
+}
+
+.seat:nth-child(even) {
+  margin-left: 35px;
+  margin-right: 2px;
+}
+
+.down-seats {
+  margin-top: 3px;
+}
+
+.flex-items-order {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ticket-order {
+    margin-top: 30px;
+}
+
+.message {
+    max-width: 500px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+hr {
+    margin-bottom: 15px;
+}
+
+.red-text {
+    color: red;
+}
+
+.continue-order {
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color: red;
+    border: none;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+.tooltip {
+    position: absolute;
+    max-width: 200px;
+    width: 100%;
+    padding: 10px;
+    background: #232323;
+    border-radius: 5px;
+}
+
+.tooltip div {
+    font-family: "Montserrat", sans-serif;
+}
+
+.coupe {
+    color: #9e9e9e;
+}
+
+.coupe-type {
+    color: #cfcfcf;
+    margin: 10px 0;
+}
+
+.roubles-hint {
+    color: #cfcfcf;
+}
+
+.ordered-seat {
+    background: #7b7b7b;
+}
